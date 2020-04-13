@@ -32,7 +32,8 @@ html {
   font-size: 2.5rem;
 }
 
-p {
+#heading-3 {
   color: hsl(229, 6%, 66%);
   font-size: 1.3rem;
+  margin-top: 2%;
 }
