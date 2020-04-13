@@ -10,9 +10,6 @@
   <title>Frontend Mentor | Four card feature section</title>
 </head>
 <body>
-
-  <div class="container">
-    
     <div id="heading-section">
       <div class="row justify-content-center">
         <h1 class="text-center" id="heading-1">Reliable, efficient delivery</h1>
@@ -21,36 +18,43 @@
         <h2 class="text-center" id="heading-2">Powered by Technology</h2>
       </div>
       <div class="row justify-content-center">
-        <p class="text-center col-xl-8 align-self-center" id="heading-3">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+        <p class="text-center col-xl-4  col-12 align-self-center" id="heading-3">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
       </div>
     </div>
 
-    <div class="product-box card ">
-      Supervisor
-      Monitors activity to identify project roadblocks
+    <div class="d-flex flex-column align-items-center">
+
+    <div class="product-box card col-xl-3" id="supervisor">
+      <h3>Supervisor</h3>
+      <p>Monitors activity to identify project roadblocks</p>
+      <img src="/images/icon-supervisor.svg" class="icon-img float-right">
     </div>
 
-    <div class="product-box card">
-      Team Builder
-      Scans our talent network to create the optimal team for your project
+    <div class="product-box card col-xl-3" id="teambuidler">
+      <h3>Team Builder</h3>
+      <p>Scans our talent network to create the optimal team for your project</p>
+      <img src="/images/icon-team-builder.svg" class="icon-img">
     </div>
 
-    <div class="product-box card">
-      Karma
-      Regularly evaluates our talent to ensure quality
+    <div class="product-box card col-xl-3" id="karma">
+      <h3>Karma</h3>
+      <p>Regularly evaluates our talent to ensure quality</p>
+      <img src="/images/icon-karma.svg" class="icon-img">
     </div>
 
-    <div class="product-box card">
-      Calculator
-      Uses data from past projects to provide better delivery estimates
+    <div class="product-box card col-xl-3" id="calculator">
+      <h3>Calculator</h3>
+      <p>Uses data from past projects to provide better delivery estimates</p>
+      <img src="/images/icon-calculator.svg" class="icon-img">
     </div>
 
-  </div>
+    </div>
+
 
 
   
   <footer>
-    <p class="attribution">
+    <p class="attribution float-none">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://twitter.com/jameschancetech">James Chance</a>.
     </p>
