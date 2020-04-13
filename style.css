@@ -1,0 +1,37 @@
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  background-color: hsl(0, 0%, 98%);
+}
+
+#heading-section {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#heading-1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+}
+
+#heading-2 {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+  font-size: 15px;
+}
