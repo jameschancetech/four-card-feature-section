@@ -29,9 +29,10 @@ html {
 #heading-2 {
   font-weight: 600;
   color: hsl(234, 12%, 34%);
+  font-size: 2.5rem;
 }
 
 p {
   color: hsl(229, 6%, 66%);
-  font-size: 15px;
+  font-size: 1.3rem;
 }
