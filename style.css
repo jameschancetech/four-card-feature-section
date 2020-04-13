@@ -18,10 +18,9 @@
 }
 
 html, body {
-  background-color: hsl(0, 0%, 98%);
+  background-color: #FAFAFA;
   height: 100%;
 }
-
 
 .container-fluid {
   height: 100%;
@@ -38,7 +37,6 @@ html, body {
 }
 
 #heading-1 {
-  font-family: 'Poppins', sans-serif;
   font-weight: 200;
   color: hsl(234, 12%, 34%);
 }
@@ -62,21 +60,50 @@ html, body {
 
 */
 
-#product-cards {
-  border: 1px solid green;
-}
-
 .product-box {
-  padding: 30px;
-  border: 1px solid green;
-  /* margin: 20px; */
+  background-color: white;
+  border-radius: 2%;
+  padding: 40px 15px;
+  box-shadow: 5px 5px 15px hsl(229, 6%, 66%)  
 }
 
 .icon-img {
-  width: 50px;
-  /* margin: 5px; */
+  margin: 30px;
+  width: 70px;
+  float: right;
+
 }
 
+.product-heading {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.product-detail {
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#supervisor {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+#teambuidler {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+#karma {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+#calculator {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
 
 /* 
 
@@ -84,3 +111,4 @@ html, body {
 
 */
 
+}
