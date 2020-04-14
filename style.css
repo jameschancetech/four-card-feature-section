@@ -62,9 +62,8 @@ html, body {
 
 .product-box {
   background-color: white;
-  border-radius: 2%;
   padding: 40px 15px;
-  box-shadow: 5px 5px 15px hsl(229, 6%, 66%)  
+  box-shadow: 5px 5px 15px hsl(229, 6%, 66%);
 }
 
 .icon-img {
@@ -110,5 +109,3 @@ html, body {
   Footer
 
 */
-
-}
