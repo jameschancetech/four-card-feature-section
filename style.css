@@ -15,6 +15,8 @@
 
 * {
   font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 html, body {
@@ -22,9 +24,15 @@ html, body {
   height: 100%;
 }
 
-.container-fluid {
-  height: 100%;
+.body-wrapper{
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+
 /* 
 
   Headings
@@ -32,25 +40,31 @@ html, body {
 */
 
 #heading-section {
-  padding-top: 2%;
-  padding-bottom: 2%;
+  width: 100%;
+  text-align: center;
 }
 
 #heading-1 {
   font-weight: 200;
   color: hsl(234, 12%, 34%);
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 #heading-2 {
   font-weight: 600;
   color: hsl(234, 12%, 34%);
   font-size: 2.5rem;
+  text-align: center;
 }
 
 #heading-3 {
   color: hsl(229, 6%, 66%);
-  font-size: 1.3rem;
-  margin-top: 2%;
+  font-size: 1.1rem;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 
@@ -60,48 +74,76 @@ html, body {
 
 */
 
+@media only screen and (max-width: 375px) {
+  .wrapper-product {
+    grid-template-rows: repeat(auto, 2fr);
+  }
+}
+
+
+.wrapper-product {
+  width: 70%;
+  min-height: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+      ". team-builder ."
+      "super-visor team-builder calc-ulator"
+      "super-visor kar-ma calc-ulator"
+      ". kar-ma .";
+  gap: 10px;
+  grid-auto-flow: column;
+}
+
+
 .product-box {
   background-color: white;
-  padding: 20px 30px;
   box-shadow: 5px 5px 15px hsl(229, 6%, 66%);
+  border-radius: 2%;
+  padding: 30px;
+
 }
 
 .icon-img {
-  margin: 30px;
   width: 70px;
   float: right;
-
+  margin-top: 20px;
 }
 
 .product-heading {
+  font-size: 2rem;
   font-weight: 600;
   color: hsl(234, 12%, 34%);
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
 }
 
 .product-detail {
   font-weight: 200;
+  font-size: 1.2rem;
   color: hsl(234, 12%, 34%);
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 #supervisor {
+  grid-area: super-visor;
   border-top: 5px solid hsl(180, 62%, 55%);
+
 }
 
 #teambuidler {
+  grid-area: team-builder;
   border-top: 5px solid hsl(0, 78%, 62%);
+
 }
 
 #karma {
+  grid-area: kar-ma;
   border-top: 5px solid hsl(34, 97%, 64%);
 }
 
 #calculator {
+  grid-area: calc-ulator;
   border-top: 5px solid hsl(212, 86%, 64%);
+
 }
 
 /* 
