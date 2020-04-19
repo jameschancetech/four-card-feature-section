@@ -1,5 +1,13 @@
 /* 
 
+  Media Queries
+
+*/
+
+
+
+/* 
+
   Globals
 
 */
@@ -73,13 +81,6 @@ html, body {
   Cards
 
 */
-
-@media only screen and (max-width: 375px) {
-  .wrapper-product {
-    grid-template-rows: repeat(auto, 2fr);
-  }
-}
-
 
 .wrapper-product {
   width: 70%;
