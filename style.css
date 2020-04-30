@@ -22,12 +22,12 @@
 
 html, body {
   background-color: #FAFAFA;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .body-wrapper{
   background-color: #FAFAFA;
-  height: 100%;
+  /* height: 100%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,7 +44,6 @@ html, body {
 #heading-section {
   width: 100%;
   text-align: center;
-  margin-top: 20px;
 }
 
 #heading-1 {
@@ -52,6 +51,7 @@ html, body {
   color: hsl(234, 12%, 34%);
   text-align: center;
   font-size: 2.5rem;
+  margin-top:50px;
 }
 
 #heading-2 {
@@ -70,7 +70,6 @@ html, body {
   margin-bottom: 20px;
 }
 
-
 /* 
 
   Cards
@@ -78,7 +77,7 @@ html, body {
 */
 
 .wrapper-product {
-  width: 50%;
+  width: 80%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -97,11 +96,13 @@ html, body {
   background-color: white;
   box-shadow: 5px 5px 15px hsl(229, 6%, 66%);
   border-radius: 2%;
-  padding: 5px 30px;
+  padding: 50px 30px;
+  min-height: 180px;
 }
 
 .icon-img {
   width: 60px;
+  margin-top: 70px;
   float: right;
 }
 
@@ -109,6 +110,7 @@ html, body {
   font-size: 1.5rem;
   font-weight: 600;
   color: hsl(234, 12%, 34%);
+
 }
 
 .product-detail {
