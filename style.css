@@ -96,8 +96,8 @@ html, body {
   background-color: white;
   box-shadow: 5px 5px 15px hsl(229, 6%, 66%);
   border-radius: 2%;
-  padding: 35px 30px;
-  min-height: 180px;
+  padding: 25px 30px;
+  min-height: 150px;
 }
 
 .icon-img {
