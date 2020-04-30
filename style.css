@@ -77,7 +77,7 @@ html, body {
 */
 
 .wrapper-product {
-  width: 75%;
+  width: 85%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -86,7 +86,7 @@ html, body {
       "super-visor team-builder calc-ulator"
       "super-visor kar-ma calc-ulator"
       ". kar-ma .";
-  gap: 15px;
+  gap: 30px;
   grid-auto-flow: column;
 }
 
@@ -107,7 +107,7 @@ html, body {
 }
 
 .product-heading {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: hsl(234, 12%, 34%);
 
@@ -116,7 +116,7 @@ html, body {
 .product-detail {
   height: 60px;
   font-weight: 200;
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: hsl(234, 12%, 34%);
   margin-top: 10px;
 }
